@@ -1,0 +1,54 @@
+@media all and (min-width:768px){
+
+    body{
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrap{
+        width: 370px;
+        height: 667px;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+
+    }
+
+    .wrap>div{
+        width: 370px;
+        height: 667px;
+        position: absolute;
+        top: 1000px;
+        left: 0;
+    }
+    
+/* header */
+
+.gnb{
+    width: 370px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* nav */
+
+nav{
+    width: 370px;
+    height: 667px;
+    z-index: 9999;
+    position: absolute;
+    top: 0;
+    right: -100%;
+}
+
+.logIn{
+    width: 370px;
+    height: 667px;
+    position: absolute;
+    top: 0;
+    left: -100%;
+}
+
+}

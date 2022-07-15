@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/default.css">
+</head>
+<body>
+    
+    <div class="wrap">
+        <header>
+            <div class="hwrap">
+                 <button class="btnLogIn">
+                     <img src="images/icon_mem.png" alt="로그인 버튼">
+                 </button>
+                 <h1><a href="#">
+                     <img src="images/logo.png" alt="로고 커넥트">
+                 </a></h1>
+                 <button class="btnAlarm">
+                     <img src="images/icon_bell.png" alt="알림창 버튼">
+                     <span class="alarmNum"></span>
+                 </button>
+             </div>
+             
+                <div class="gnb">
+                    <li><a href="#">
+                        <img src="images/icon.png" alt="공연">
+                        <h4>공연</h4>
+                    </a></li>
+                    <li><a href="#">
+                        <img src="images/icon4.png" alt="수업">
+                        <h4>수업</h4>
+                    </a></li>
+                    <li><a href="#">
+                        <img src="images/icon3.png" alt="홈">
+                        <h4>홈</h4>
+                    </a></li>
+                    <li><a href="#">
+                        <img src="images/icon2.png" alt="채팅">
+                        <h4>채팅</h4>
+                    </a></li>
+                    <li><a href="#">
+                        <img src="images/icon1.png" alt="게시판">
+                        <h4>게시판</h4>
+                    </a></li>
+                </div>
+             
+             <nav>
+                 <ul class="alarm" id="alarm"><h3>알림</h3></ul>
+             
+                 <button class="close">닫기</button>
+             </nav>
+     
+             <div class="logIn">
+                 <h1><img src="images/logo.png" alt="로고 커넥트"></h1>
+                 <div class="lwrap">
+                     <input type="text" placeholder="아이디" alt="아이디 입력창"> <br>
+                     <input type="password" placeholder="비밀번호" alt="비밀번호 입력창">
+                     </div>
+                 <div class="btnwrap">
+                     <button class="signIn">회원가입</button>
+                     <button class="ok">로그인</button>
+                 </div>
+                 <button class="close">닫기</button>
+             </div>
+             <!-- logIn -->
+         </header>
+     
+         <div class="home active">
+             <div class="bn">
+                 <div class="pic">
+                     <a href="#"></a>
+                 </div>
+             </div>
+             <div class="articles" id="articles"></div>
+             <!-- articles -->
+         </div>
+         <!-- home -->
+     
+         <div class="chat" id="chat"></div>
+         <!-- chat -->
+     
+         <div class="busk busking">
+             <div class="srch">
+                 <form>
+                 <input type="text" placeholder="원하는 조건을 검색해보세요.">
+                 <button class="ok">확인</button>
+                 </form>
+             </div>
+             <div class="keyword">
+                 <div class="rough">
+                     <button>버스킹</button>
+                     <button>행사</button>
+                     <button>돌잔치</button>
+                     <button>생일</button>
+                     <button>축가</button>
+                 </div>
+                 <!-- rough -->
+                 <div class="detail">
+                     <h4>세부 사항 선택</h4>
+                     <div class="btn">
+                         <button>장르</button>
+                         <button>지역</button>
+                         <button>경력</button>
+                         <button>기타</button>
+                     </div><!-- btn -->
+                     <div class="swrap">
+                         <div class="select select1"></div>
+                         <div class="select select2"></div>
+                         <div class="select select3"></div>
+                         <div class="select select4"></div>
+                     </div><!-- select -->
+                 </div>
+                 <!-- detail -->
+                 <div class="selected"></div><!-- selected -->
+                 <button class="reset">초기화</button><!-- reset -->
+                 <div class="prof prof1"></div><!-- prof -->
+             </div><!-- keyword -->
+         </div>
+         <!-- busking -->
+     
+     
+         <div class="class busking">
+             <div class="srch">
+                 <form>
+                 <input type="text" placeholder="원하는 조건을 검색해보세요.">
+                 <button class="ok">확인</button>
+                 </form>
+             </div>
+             <div class="keyword">
+                 <div class="rough">
+                     <button>원데이</button>
+                     <button>기초</button>
+                     <button>중급</button>
+                     <button>심화</button>
+                     <!-- <button></button> -->
+                 </div>
+                 <!-- rough -->
+                 <div class="detail">
+                     <h4>세부 사항 선택</h4>
+                     <div class="btn">
+                         <button>장르</button>
+                         <button>지역</button>
+                         <button>경력</button>
+                         <button>기타</button>
+                     </div><!-- btn -->
+                     <div class="swrap">
+                         <div class="select select1"></div>
+                         <div class="select select2"></div>
+                         <div class="select select3"></div>
+                         <div class="select select4"></div>
+                     </div><!-- select -->
+                 </div>
+                 <!-- detail -->
+                 <div class="selected"></div><!-- selected -->
+                 <button class="reset">초기화</button><!-- reset -->
+                 <div class="prof prof2"></div><!-- prof -->
+             </div><!-- keyword -->
+         </div>
+         <!-- class -->
+     
+         <div class="commu">
+             <h5>서비스 준비중입니다.</h5>
+         </div>
+
+    </div>
+    <!-- wrap -->
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/content.js"></script>
+    <script src="js/selected.js"></script>
+    <script src="js/main.js"></script>
+
+</body>

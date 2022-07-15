@@ -1,0 +1,72 @@
+/* chat */
+
+.chat{
+    height: 1000px;
+    overflow-y: scroll;
+}
+.chat .box{
+    background-color: #ccc;
+    border-bottom: 1px solid #666;
+    color: #333;
+    position: relative;
+    height: 80px;
+}
+.chat .box:last-child{
+    margin-bottom: 500px;
+
+}
+
+.chat .box a{
+    display: flex;
+    align-items: center;
+
+}
+
+.chat .pic{
+    background-color: #aaa;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.chat .pic1{background-image: url(../images/chat1.png);}
+.chat .pic2{background-image: url(../images/chat2.png);}
+.chat .pic3{background-image: url(../images/chat3.png);}
+.chat .pic4{background-image: url(../images/chat4.png);}
+.chat .pic5{background-image: url(../images/chat5.png);}
+.chat .pic6{background-image: url(../images/chat6.png);}
+
+
+.chat .txt{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 80px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.chat .txt h3{
+    margin: 0;
+    vertical-align: top;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.chat .txt p{
+    color: #999;
+    font-size: 14px;
+    
+}
+.chat span{
+    font-size: 14px;
+    color: #666;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+
+}
