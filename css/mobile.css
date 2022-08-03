@@ -121,7 +121,7 @@
     justify-content: space-between;
     flex-direction: column;
     height: 80px;
-    padding: 10px;
+    padding: 12px 10px;
     box-sizing: border-box;
 }
 .chat .txt h3{

@@ -1,3 +1,9 @@
+// logo click -> home
+$('h1').on('click',function(){
+    $('.gnb li').eq(2).addClass('active').siblings().removeClass('active');
+    $(`.home`).addClass('active').siblings('div').removeClass('active')
+});
+
 
 // alarm
 
