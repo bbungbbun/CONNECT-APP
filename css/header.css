@@ -176,12 +176,14 @@ nav .alarmX:active span{
     left: -100%;
     z-index: 9999;
     transition: all 1s;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 
 .logIn h1{
     text-align: center;
-    margin-top: 35vh;
     margin-bottom: 12px;
 }
 
@@ -207,7 +209,6 @@ nav .alarmX:active span{
     -webkit-appearance: none;  /* 브라우저별 기본 스타일링 제거 */
     -moz-appearance: none;
     appearance: none;
-
 }
 
 .logIn .close{
